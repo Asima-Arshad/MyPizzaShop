@@ -41,9 +41,9 @@ if (process.env.NODE_ENV === "production") {
 
 
 
-app.get('/', (req,res)=> {
-  res.send("hello");
-})
+// app.get('/', (req,res)=> {
+//   res.send("hello");
+// })
 
 app.listen(port, function () {
   console.log(`Port is now running @ ${port}`)
